@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
     cout << n << "\n";
 
     for(int i = 0; i < n; i++) {
-        cout << rnd.next(1LL, 1000000000LL);    
+        cout << rnd.next(1LL, 1000000000LL);    // inside the bracket the array value size min and max
         if(i + 1 < n) cout << ' ';
     }
     cout << '\n';
