@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
     cout << n << "\n";
 
     for(int i = 0; i < n; i++) {
-        cout << rnd.next(1LL, 19LL);    
+        cout << rnd.next(1LL, 19LL);    // its means the value of array element between 1 to 19
         if(i + 1 < n) cout << ' ';
     }
     cout << '\n';
